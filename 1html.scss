@@ -1,0 +1,38 @@
+body{
+    background-image: url(./pic\ mohd.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    position: fixed;
+    position: relative;
+}
+
+
+
+.container button{
+    width: 25%;
+    height: 7vh;
+    margin-top:  40%;
+    
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media (max-width:400px){
+    .container button{
+        margin-top: -27%;
+        width: 30%;
+        height: 3vh;
+        font-size: 60%;
+
+    }
+}
+@media (max-width:1110px){
+    .container button{
+       
+        width: 30%;
+        height: 3vh;
+        font-size: 60%;
+
+    }
+}
+
